@@ -23,6 +23,13 @@
     font-weight: 500;
     border-radius: 5px;
     justify-self:center;
+    background-image: linear-gradient(to bottom, navy,skyblue,navy);
+    transition: all 0.3s;
+}
+
+.btnReset:hover{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 90),blue,rgb(0, 0, 90));
+    color:white
 }
 
 @media (min-width:500px) {
