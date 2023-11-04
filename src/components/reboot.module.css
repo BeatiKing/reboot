@@ -1,0 +1,48 @@
+*{
+    padding:0;margin:0;box-sizing: border-box;
+}
+
+.mainContainer{
+    display:grid;
+    place-content:center;
+    background-color: navy;
+    height:100vh;
+    width:100vw;
+    row-gap:20px;
+}
+
+.h1InternetStatus{
+    color:#fff;
+    font-size:15pt;
+    text-align:center;
+}
+
+.btnReset{
+    width:80vw;
+    height:50px;
+    font-weight: 500;
+    border-radius: 5px;
+    justify-self:center;
+}
+
+@media (min-width:500px) {
+    .h1InternetStatus{
+        font-size:2em;
+    }
+
+    .btnReset{
+        width:40vw;
+    }
+}
+
+@media (min-width:768px) {
+    .btnReset{
+        width:30vw;
+    }
+}
+
+@media (min-width:922px) {
+    .btnReset{
+        width:200px;
+    }
+}
